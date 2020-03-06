@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import com.bolsaideas.springboot.backend.apirest.models.entities.Cliente;
 
-@Service
+
 public interface IClienteSvc {
     
 	public Cliente getClienteById(Long id) throws Exception;
